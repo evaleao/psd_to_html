@@ -33,5 +33,60 @@
     footer{
       color: blueviolet;
     }
+
+    .watch-section{
+      
+      
+    }
+
+    .middleImage {
+      position: relative;
+    }
+
+    .youtubeImage {
+      position: absolute;
+      top:275px;
+      left:670px;
+      
+
+    }
+    
+    .expertise-section{
+      color: rgb(36, 35, 36);
+      display: flex;
+      justify-content: center;
+      flex-direction: column; 
+      align-items: center;     
+        
+    }
+
+    .expertise1{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+
+    .mainContainer{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-left: 15vw;
+      margin-right: 15vw;
+      
+    }
+
+    
+    
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+      
+
+
     
     
