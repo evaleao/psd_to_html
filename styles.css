@@ -31,7 +31,22 @@
     }
     
     footer{
-      color: blueviolet;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      background-image: url(src/bgk-footer.png);
+      color:azure;
+      padding: 40px 40px;
+    }
+
+    .main-footer-part {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+
+    .company {
+      width: 20%;
     }
 
     .watch-section{
@@ -78,6 +93,79 @@
     }
 
     
+
+    .contact {
+      width: 30%
+    }
+
+    .stay-in-touch {
+      width: 30%
+    }
+
+    .company-name-footer{
+      display: inline-flex;
+    }
+
+    .company-name-footer img {
+      width: 40px;
+      padding: 8px 8px;
+    }
+
+    .company-name-footer p {
+      color: #6FDCD0;
+      font-size: 40px;
+    
+    }
+
+    .legacy {
+      display: flex;
+      flex-direction: row;
+      margin-top: 1em;
+    }
+
+    .legacy p {
+      padding-right: 2em;
+    }
+
+    .caption {
+      justify-content: flex-end;
+      font-size: 14;
+    }
+
+  .newsletter {
+    display: inline-flex;
+  }
+
+   .newsletter input{
+     margin-top: 32px;
+     padding: 4px;
+     height: 32px;
+     width: 208px;
+     border: none;
+   }
+
+   .newsletter img{
+    margin-top: 32px;
+    margin-left: 8px;
+    padding: 8px 8px;
+    height: 24px;
+    width: 24px;
+    background-color: azure;
+    opacity: 30%;
+  }
+
+  .social-media{
+    margin-top: 8px;
+  }
+  .name-section{
+    text-transform: uppercase;
+    margin-top: 8px;
+  }
+
+  .legacy {
+    text-transform: uppercase;
+    font-weight: 100;
+  }
     
     .container{
       display: flex;
