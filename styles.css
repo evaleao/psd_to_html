@@ -256,3 +256,24 @@
     }
   }
   
+  .our-story-section{
+    height: 280px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    
+  
+  }
+
+  .fotito{
+width: 160px;
+height: 160px;
+  }
+
+  .textsattheright{
+    width: 400px;
+    height: 150px;
+    
+  }
