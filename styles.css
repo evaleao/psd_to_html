@@ -30,7 +30,38 @@
     }
     
     #contact_client-section{
-      color: lightsalmon;
+      color:black;
+      
+      display: flex;
+      flex-direction: row;
+    }
+    .clientForm{
+      margin: 40px 40px ;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .clientForm h1{
+      font-size: larger;
+      text-transform: uppercase;
+      font-weight: lighter;
+    }
+
+    .clientForm input{
+      color: #D3D3D4;
+      width: 256px;
+      margin-top: 16px;
+      padding: 8px 8px;
+      border: #F1F1F1 solid 1px;
+    }
+
+    .clientForm textarea{
+      color: #D3D3D4;
+      width: 256px;
+      height: 256px;
+      margin-top: 16px;
+      padding: 8px 8px;
+      border: #F1F1F1 solid 1px;
     }
     
     footer{
