@@ -34,4 +34,80 @@
       color: blueviolet;
     }
     
+    .main-team-section{
+      background: url(bgk-header.png) ;
+      height: 600px;
+      width: auto;
+      
     
+    }
+
+    .member{
+      border: white solid 1px;
+      height: 280px;
+      width: 200px;
+
+    }
+
+    .photo{
+      height: 200px;
+      width: 200px;
+      background-color: white;
+    }
+
+    .main-team-section h1{
+      
+      color: white;
+      padding-top: 3px;
+    }
+
+    .main-team-section h3{
+      margin-top: 10px;
+      margin-bottom: 30px;
+      color: white;
+      font-weight: 100;
+     }
+
+     .main-team-section h4{
+       color: white;
+       font-weight: 100;
+     }
+
+  .team-members{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    grid-column-gap: 20px;
+    margin: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+.main-team-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.epigraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    
+  }
+  
+  @media screen and (max-width:700px){
+    .team-members{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    grid-row-gap: 20px;
+    }
+    .main-team-section{
+      height: 900px;
+      background-size:cover  ;
+    }
+  }
+  
