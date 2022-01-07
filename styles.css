@@ -50,7 +50,9 @@
     }
 
     .watch-section{
-      
+      display: flex;
+      justify-content: center;
+      align-items: center;
       
     }
 
@@ -60,10 +62,7 @@
 
     .youtubeImage {
       position: absolute;
-      top:275px;
-      left:670px;
-      
-
+          
     }
     
     .expertise-section{
